@@ -1,0 +1,5 @@
+{% extends "master.stencil" %}
+{% block title %}Staff{% endblock %}
+{% block body %}
+{% include "stafflist.stencil" %}
+{% endblock %}
