@@ -1,0 +1,3 @@
+start a single project
+
+docker run -itv$(pwd):/project1 --name project1 -w /project1 -p 8089:8089 -p 8090:8090 -p 5984:5984 twostraws/server-side-swift /bin/bash
